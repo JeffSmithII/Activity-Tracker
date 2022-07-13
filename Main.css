@@ -1,0 +1,14 @@
+:root {
+    --navy: #003049;
+    --red: #d62828;
+    --orange: #f77f00;
+    --yellow: #fcbf49;
+    --cream: #eae2b7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
