@@ -1,7 +1,7 @@
 let date1 = new Date();
 let date2 = new Date('12/25/2022');
 
-let btnGet = document.querySelector('button');
+let btnGet = document.querySelector('#button2');
 let result = document.querySelector('h3');
 
 btnGet.addEventListener('click', () => {
