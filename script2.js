@@ -1,5 +1,5 @@
-let date1 = new Date();
-let date2 = new Date('12/25/2022');
+let date1 = document.querySelector('#input1').value;
+let date2 = document.querySelector('#input2').value;
 
 let btnGet = document.querySelector('#button2');
 let result = document.querySelector('h3');
