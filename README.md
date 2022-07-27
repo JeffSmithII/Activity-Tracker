@@ -1,4 +1,4 @@
-For this project, I created a to do list that displays the current date, calculates how many days until a chosen deadline and can convert minutes to hours and minutes, that way you can get a better idea of how much time different task may take and manage your time a little better. The three features that I chose from the feature list are listed below:
+For this project, I created a Task Manager that displays the current date, calculates how many days until a chosen deadline and can convert minutes to hours and minutes, that way you can get a better idea of how much time different task may take and manage your time a little better. The three features that I chose from the feature list are listed below:
 
 •Calculate and display data based on an external factor (ex: get the current
 date, and display how many days remaining until some event). 
@@ -19,3 +19,5 @@ Two of the features that I was originally going to implement but found to be a l
 file
 
 •Visualize data in a graph, chart, or other visual representation of data
+
+!!Note!! if you're having issues with selecting dates to see how many days until a certian deadline, make sure you manually "Click" a date from both date selectors and that should solve your issue.
