@@ -22,13 +22,23 @@
         
         
         
-        <h3>Days Until Deadline</h3>
+        <h3 id="output">Days Until Deadline</h3>
         <form>
-            <input type="date" id="input1">
-            <input type="date" id="input2">
+            <input type="date" id="d1">
+            <input type="date" id="d2">
         </form>
-        <button id="button2" class="btn2">Get Days Until</button>
-        <script src="script2.js"></script>
+        <button onclick="calculateDays()" id="button2" class="btn2">Get Days Until</button>
+        <script>
+            function calculateDays (){
+                var d1= document.getElementById("d1").value;
+                var d2= document.getElementById("d2").value;
+                const dateOne = new Date(d1);
+                const dateTwo = new Date(d2);
+                const time = Math.abs(dateTwo - dateOne);
+                const days = Math.ceil(time / (1000 * 60 * 60 * 24));
+                document.getElementById("output").innerHTML=days;
+            }
+        </script>
     </div>
 
     
