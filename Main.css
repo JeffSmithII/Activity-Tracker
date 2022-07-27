@@ -205,4 +205,14 @@ footer {
     flex-direction: column;
     }
 
+    #new-task-input {
+    display: flex;
+    flex-direction: column;
+    }
+
+    #tasks .task {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
