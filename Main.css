@@ -72,6 +72,10 @@ input, button {
     font-weight: 400;
 }
 
+.btn2 {
+    margin-top: 10px;
+}
+
 #new-task-input {
     flex: 1 1 0%;
     background-color: var(--yellow);
@@ -208,11 +212,53 @@ footer {
     #new-task-input {
     display: flex;
     flex-direction: column;
+    background-color: #390000;
+    color: var(--cream);
+    }
+
+    #new-task-input::placeholder {
+        color: var(--cream);
     }
 
     #tasks .task {
         display: flex;
         flex-direction: column;
+        background-color: #390000;
     }
 
+    #tasks .task .content .text {
+        color: #eae2b7;
+    }
+
+    .task .actions .edit {
+        margin-top: 10px;
+        margin-left: 10px;
+        color: var(--cream);
+    }
+
+    .task .actions .delete {
+        margin-top: 10px;
+        color: var(--red);
+    }
+
+    #tasks .task .content {
+        flex: 1 1 0%;
+        
+    }
+
+    body {
+        background: #001018;
+    }
+
+    .titleBackground {
+        background-color: #390000;
+    }
+
+    footer {
+        background-color: #390000;
+    }
+
+    #new-task-submit {
+        margin-top: 15px;
+    }
 }
