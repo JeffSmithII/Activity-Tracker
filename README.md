@@ -2,8 +2,7 @@ For this project, I created a to do list that displays the current date, calcula
 
 •Calculate and display data based on an external factor (ex: get the current
 date, and display how many days remaining until some event). 
-    I implemented this feature by creating a function that gets the current date, and creating form inputs that takes a set of dates and
-    and return how many days are remaining between the two.
+    I implemented this feature by creating a function that gets the current date, and creating form inputs that takes a set of dates that the user selects and return how many days are remaining between the two.
 
 •Build a conversion tool that converts user input to another type and displays it
 (ex: converts cups to grams).
