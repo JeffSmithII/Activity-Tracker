@@ -63,7 +63,7 @@ h1, h3 {
 header h1 {
     font-size: 2.5rem;
     font-weight: 300;
-    color: ;
+
     margin-bottom: 1rem ;
 
 }
@@ -75,10 +75,10 @@ header h1 {
 
 input, button {
     appearance: none;
-    border: ;
+
     border-radius: 1rem;
     border-color: #eae2b7;
-    outline: ;
+
     background: none;
     color: var(--cream);
     font-size: 1rem;
@@ -134,7 +134,6 @@ main {
 .task-list h2 {
     font-size: 1.5rem;
     font-weight: 300;
-    color: ;
     margin-bottom: 1rem;
 }
 
