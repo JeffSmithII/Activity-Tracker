@@ -9,5 +9,5 @@ btnShow.addEventListener('click', () => {
 
     let msInDay = 1000 * 3600 * 24;
 
-    output.innerText = difference/msInDay;
+    output.innerText = Math.ceil(difference/msInDay);
 })
