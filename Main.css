@@ -216,6 +216,10 @@ footer {
 }
 
 @media (max-width: 736px) {
+
+    .title {
+        color: #eae2b7;
+    }
     
     #new-task-form {
     display: flex;
