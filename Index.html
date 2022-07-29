@@ -27,12 +27,14 @@
             <input type="date" id="d1">
             <input type="date" id="d2">
         </form>
-        <button onclick="displayDays()" id="button2" class="btn2">Get Days</button>
+        <div class="toolTip">
+            <span class="toolTipText">Make sure both dates have been "clicked"</span>
+                <button onclick="displayDays()" id="button2" class="btn2">Get Days</button>
+            
+        </div>
         <script>
 
-            function calculateDaysApart(d1, d2) {
-                    var d1= document.getElementById("d1").value;
-                    var d2= document.getElementById("d2").value;
+            function calculateDaysApart(d1, d2) {                    
                     const dateOne = new Date(d1);
                     const dateTwo = new Date(d2);
                     const time = Math.abs(dateTwo - dateOne);
@@ -41,7 +43,9 @@
                 }
 
                 function displayDays (){
-                    
+                    var d1= document.getElementById("d1").value;
+                    var d2= document.getElementById("d2").value;
+
                     var sum = (calculateDaysApart(d1, d2));
                     document.getElementById("daysUntil").innerHTML=sum;
 

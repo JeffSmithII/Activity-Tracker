@@ -68,6 +68,27 @@ header h1 {
 
 }
 
+
+.toolTip .toolTipText {
+    visibility: hidden;
+    width: 120px;
+    margin-left: -130px;
+    margin-top: 7px;
+    background-color: var(--cream);
+    color: var(--navy);
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.toolTip:hover .toolTipText {
+    visibility: visible;
+}
+
 #new-task-form {
     display: flex;
     
